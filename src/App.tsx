@@ -7,6 +7,7 @@ import { Navbar } from './components/navbar'
 import { ShoppingCartProvider } from './context/ShoppingCartContext'
 import { Footer } from './components/Footer'
 import { ScrollToTop } from './components/ScrollToTop'
+import { Checkout } from './pages/Checkout'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home/>}></Route>
         <Route path="/order" element={<Order />}></Route>
         <Route path="/about" element={<About />}></Route>
+        <Route path="/checkout" element={<Checkout />}></Route>
       </Routes>
       <Footer />
       <ScrollToTop />
